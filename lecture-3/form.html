@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#" class="tototo" method="post">
+      <div style="display: inline-block">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Input your name"
+          />
+        </div>
+        <br />
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <br />
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required />
+        </div>
+        <br />
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <label for="pass">Password</label>
+          <input type="password" id="pass" name="pass" />
+        </div>
+        <br />
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" style="width: 175px" />
+        </div>
+        <br />
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time" style="width: 175px" />
+        </div>
+        <br />
+        <label> <input type="radio" name="gender" value="male" /> Male </label>
+        <label>
+          <input type="radio" name="gender" value="female" /> Female
+        </label>
+        <label> <input type="radio" name="gender" value="other" /> Other </label
+        ><br /><br />
+        <div
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <label for="country" style="width: 90px; display: inline-block"
+            >Select your country:</label
+          >
+          <select
+            id="country"
+            name="country"
+            style="width: 200px; padding: 10px"
+          >
+            <option value="bd">Bangladesh</option>
+            <option value="in">India</option>
+            <option value="us" selected>Pakistan</option>
+            <option value="uk">Malayshia</option>
+          </select>
+        </div>
+        <br />
+        <lable for="pen">Pen</lable>
+        <input type="checkbox" name="pen" id="pen" />
+        <lable for="pencil">Pencil</lable>
+        <input type="checkbox" name="pen" id="pencil" /><br /><br />
+        <label for="comment"></label>
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="10"
+          placeholder="Your comment here..."
+        ></textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
