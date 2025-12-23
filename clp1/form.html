@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="fn">First Name:</label>
+      <input
+        type="text"
+        id="fn"
+        name="fn"
+        placeholder="Input your first name"
+      /><br /><br />
+
+       <label for="fn">Last Name:</label>
+      <input
+        type="text"
+        id="ln"
+        name="ln"
+        placeholder="Input your last name"
+      /><br /><br />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Email Address" required />
+      <br /><br />
+      <label for="phone">Phone#:</label>
+      <input type="number" placeholder="(88)443154543" id="phone" name="phone" required />
+      <br /><br />
+      <label for="address">Address:</label>
+      <input type="text" placeholder="Address" id="address" name="address" required />
+      <br /><br />
+      <label for="city">City</label>
+      <input type="text" placeholder="city" id="city" name="city" />
+      <br /><br />
+      <label for="country">State:</label>
+      <select id="country" name="country">
+        <option value="" selected>Please enter your state</option>
+        <option value="in">Bangladesh</option>
+        <option value="us">Pakistan</option>
+        <option value="uk">Malayshia</option></select
+      ><br /><br />
+      <label for="zip">Zip Code:</label>
+      <input type="text" placeholder="Zipcode" id="zip" name="zip" required />
+      <br /><br />
+      <label for="web">Website or domain name:</label>
+      <input type="url" placeholder="Website or domain name" id="web" name="web" required />
+      <br /><br />
+      <label>Do you have hosting:</label>
+      <label> <input type="radio" name="bool" value="male" /> Yes </label>
+      <label>
+        <input type="radio" name="bool" value="female" /> No
+      </label>
+      
+      <br /><br />
+
+   
+    
+<label for="comment">Project Description</label>
+<textarea name="comment" id="comment" cols="30" rows="10" placeholder="Project Description..."></textarea>
+<br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
