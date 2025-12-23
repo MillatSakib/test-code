@@ -1,0 +1,7 @@
+.static{
+
+    position: static;
+    border: 5px solid blue;
+    margin: 20px;
+    padding: 20px;
+}
